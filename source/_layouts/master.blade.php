@@ -9,8 +9,14 @@
 
         <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
     </head>
+
+    @unless(isset($hideNavigation))
+        @include('_partials.navigation')
+    @endunless
+
     <body class="bg-insta-gray">
         @yield('body')
+
         @unless(isset($hideFooter))
 			@include('_partials.footer')
 		@endunless

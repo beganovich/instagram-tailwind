@@ -1,5 +1,17 @@
+.darken {
+	-webkit-filter: brightness(0.7);
+}
+
 @tailwind base;
 
 @tailwind components;
+
+.instagram-photo {
+	@apply cursor-pointer;
+	z-index: -1;
+	&:hover {
+		@apply darken;
+	}
+}
 
 @tailwind utilities;
