@@ -55,8 +55,12 @@
 	<div class="flex flex-col items-center">
 		<p class="text-sm my-4">Get the app.</p>
 		<div class="flex items-center content-around">
-			<img src="/assets/images/download-on-appstore.png" class="h-10 mr-1" alt="Download on App Store">
-			<img src="/assets/images/get-it-on-google-play.png" class="h-10" alt="Get it on Google Play">
+			<a href="https://itunes.apple.com/app/instagram/id389801252">
+				<img src="/assets/images/download-on-appstore.png" class="h-10 mr-1" alt="Download on App Store">
+			</a>
+			<a href="https://play.google.com/store/apps/details?id=com.instagram.android">
+				<img src="/assets/images/get-it-on-google-play.png" class="h-10" alt="Get it on Google Play">
+			</a>
 		</div>
 	</div>
 @endsection

@@ -8,5 +8,8 @@
     </head>
     <body class="bg-insta-gray">
         @yield('body')
+        @unless(isset($hideFooter))
+			@include('_partials.footer')
+		@endunless
     </body>
 </html>

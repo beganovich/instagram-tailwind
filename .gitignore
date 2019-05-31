@@ -6,10 +6,10 @@
 /.vscode/
 npm-debug.log
 yarn-error.log
+/build_production/
 
 # Optional ignores
 # /build_staging/
-# /build_production/
 # /source/assets/build/css/
 # /source/assets/build/fonts/
 # /source/assets/build/js/
