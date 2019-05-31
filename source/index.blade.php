@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.master', ['hideNavigation' => true])
 @section('body')
 
 <div class="flex justify-center">
