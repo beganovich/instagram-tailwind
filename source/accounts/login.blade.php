@@ -12,7 +12,7 @@
 					<input type="text" class="bg-insta-gray p-2 rounded border border-gray-300 text-xs w-full" placeholder="Phone number, username, or email">
 				</div>
 				<div class="mb-2">
-					<input type="text" class="bg-insta-gray p-2 rounded border border-gray-300 text-xs w-full" placeholder="Password">
+					<input type="password" class="bg-insta-gray p-2 rounded border border-gray-300 text-xs w-full" placeholder="Password">
 				</div>
 				<div class="my-4 flex justify-end">
 					<a href="#" class="text-blue-900 text-sm">Forgot password?</a>
