@@ -1,4 +1,5 @@
 @extends('_layouts.master')
+@section('title', 'Login')
 
 @section('body')
 	<!-- Login form -->
